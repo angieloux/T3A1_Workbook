@@ -39,7 +39,7 @@ The local repo on your machine is made up of 3 'trees' that are all maintained b
 2. **Index**: *staging area*
 3. **HEAD**: *points to the last commit made (i.e. the current commit in the working directory)*
 
-![Diagram of Working directory, Index & HEAD](images/Git-WD-Index-Head.png)
+![Diagram of Working directory, Index & HEAD](/images/Git-WD-Index-Head.png)
 
 (Johnson 2016)
 
@@ -53,7 +53,7 @@ Note, at this stage, the changes are only stored in the `HEAD` on your local mac
 
 Depending on your team's process, you may be pushing code directly to the main branch, or to a different branch entirely, for example:
 
-![Diagram of branching in Git](images/Git-Branches.png)
+![Diagram of branching in Git](/images/Git-Branches.png)
 
 (Atlassian 2020)
 
@@ -65,7 +65,7 @@ However, when pushing changes back to the central repo, there is a chance that o
 
 Again, in a large team, developers will invetibly come across merge conflict errors that must be resolved. See an example of this in action in the below diagram. If a developer is trying to push code that directly conflicts with commits that are already upstream, Git will error and not push the changes until the conflicts are dealt with. A way to do this is to fetch the most recent commits from the central repo and either 1. rebase their changes over the top of them (i.e. put them at the front) or 2. manually resolve conflicts within the code. This is why it is imperative to commit often, be communicative within your team and make sure each commit has a meanginful message attached to ensure everyone is aware of what is happening and why.
 
-![Diagram of Git conflicts](images/Git-Conflicts.png)
+![Diagram of Git conflicts](/images/Git-Conflicts.png)
 
 (Better Explained 2015)
 
@@ -108,7 +108,7 @@ The MERN stack is named after the four technologies that it incorporates:
 
 The MERN stack is an full-stack collection of technologies that allow a developer to construct a 3-tier architecture (front end, back end, database) with only JavaScript & JSON. It's a popular solution given it allows developers to create apps 1. quickly & 2. utilising only the JavaScript language.
 
-![Diagram of the 3 tiers of MERN Stack](images/mern.png)
+![Diagram of the 3 tiers of MERN Stack](/images/mern.png)
 
 (MongoDB 2022)
 
@@ -234,8 +234,6 @@ console.log(`Hello, I have a pet named ${pet}`)
 
 If this sequence needs to be manipulated, flow controls are required. These can be iterative statements (i.e. loops) and control statements (`if` / `else if` / `else`). 
 
-`<div style="page-break-after: always;"></div>
-
 Let's look at an example using the latter:
 
 ```js
@@ -254,6 +252,8 @@ function weather(temp) {
 }
 
 ```
+<div style="page-break-after: always;"></div>
+
 This same function can also be reflected using a `switch` statement. 
 ```js
 
@@ -601,8 +601,6 @@ typeof(anotherSum) // function
 
 (Copes 2020; Kelhini 2019; Mozilla 2022; Mozilla 2022d)
 
-<div style="page-break-after: always;"></div>
-
 # **Q10 Explain how arrays can be manipulated in JavaScript, using examples from the JavaScript programming language**
 
 There are a number of ways in JavaScript to manipulate and mutate arrays for a range of reasons. A variety of methods can be used on arrays to do a variety of things - add elements, remove alements, modify elements -- amongst other things.
@@ -629,6 +627,8 @@ Combines two arrays (or add more items to an array) and returns the newly combin
 let moreNames = ["Glenyce", "Scott"]
 let allNames = names.concat(moreNames) // [ 'Angela', 'Jessica', 'Chris', 'Glenyce', 'Scott' ]
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### **push()**
 Adds elements to the END of an array (and mutates the original array)
@@ -674,6 +674,8 @@ animals.splice(2,1, 'sea lion', 'frog') // ['cat', 'fish', 'sea lion', 'frog']
 animals.splice(0) // []
 animals.splice(0, 0, 'baboon') // ['baboon']
 ```
+
+<div style="page-break-after: always;"></div>
 
 ### **filter()**
 Create a new array of items that pass a certain condition. The syntax is: 
@@ -721,6 +723,7 @@ let lowerCaseCities = cities.map((city) => {
 //   { name: 'barcelona', country: 'Spain' }
 // ]
 ```
+<div style="page-break-after: always;"></div>
 
 ### **reduce()** 
 Executes a reducer function for an element of the array. This returns the accumulated result (i.e. *reducing* it down to a single result). The syntax is as follows: 
@@ -889,7 +892,6 @@ Object.freeze(profile)
 Object.isFrozen(profile) // true 
 profile.name = "Kath" // { name: 'Angela', id: 123, yearRegistered: 2017, subscribed: true, email: 'angela@test.com' }
 ```
-<div style="page-break-after: always;"></div>
 
 ## **Object.seal()**
 This works the same as `freeze()` with the exception that you can change existing properties. You simply cannot delete or add new ones. Again this can't be reversed.
@@ -962,6 +964,7 @@ userData = {
 
 (Copes 2020; ECMA International 2022; Sikira 2021; Talha 2018)
 
+<div style="page-break-after: always;"></div>
 
 # **Q12 - Explain how JSON can be manipulated in JavaScript, using examples from the JavaScript programming language.**
 
@@ -1180,6 +1183,8 @@ class Car {
 ```
 
 (Green 2018; Mozilla 2022)
+
+<div style="page-break-after: always;"></div>
 
 # References
 
