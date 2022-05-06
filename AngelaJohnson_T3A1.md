@@ -107,13 +107,13 @@ The MERN stack is named after the four technologies that it incorporates:
 
 The MERN stack is an full-stack collection of technologies that allow a developer to construct a 3-tier architecture (front end, back end, database) with only JavaScript & JSON. It's a popular solution given it allows developers to create apps 1. quickly & 2. utilising only the JavaScript language.
 
-![Diagram of the 3 tiers of MERN Stack](/assessment/AngelaJohnson_T3A1/images/mern.png)
+![Diagram of the 3 tiers of MERN Stack](/images/mern.png)
 
 Let's dive into what these three components look like in practice:
 
 ## **Front end (React.js)**
 
-The front end of a MERN stack is React.js. React.js is a JS framework that allows for the creation of dynamic client-facing apps in HTML. It is capable of creating complex interfaces that are then connected to the backend server (Express.JS) which will then be rendered to the user's browser as HTML. React is a particularly strong framework given its ability to handle "stateful, data-driven interfaces with minimal code and minimal pain". (https://www.mongodb.com/mern-stack) %%
+The front end of a MERN stack is React.js. React.js is a JS framework that allows for the creation of dynamic client-facing apps in HTML. It is capable of creating complex interfaces that are then connected to the backend server (Express.JS) which will then be rendered to the user's browser as HTML. React is a particularly strong framework given its ability to handle "stateful, data-driven interfaces with minimal code and minimal pain". (MongoDB, 2022)
 
 ## **Back end (Node.js & Express.js)**
 
