@@ -1,3 +1,5 @@
+To view this assessment correctly, with images, please visit 
+
 # T3A1 Workbook
 
 # **Q1 - Provide an overview and description of a standard source control process for a large project.**
@@ -37,7 +39,7 @@ The local repo on your machine is made up of 3 'trees' that are all maintained b
 2. **Index**: *staging area*
 3. **HEAD**: *points to the last commit made (i.e. the current commit in the working directory)*
 
-![Diagram of Working directory, Index & HEAD](/assessment/AngelaJohnson_T3A1/images/Git-WD-Index-Head.png)
+![Diagram of Working directory, Index & HEAD](/images/Git-WD-Index-Head.png)
 (Johnson 2016)
 
 Assuming a central repo has been created (with `git init`) already, each developer will need to clone that repo onto their machine with `git clone <repo_url>` and set up the remote with `git remote add <remote_name> <remote_repo_url>`
@@ -50,7 +52,7 @@ Note, at this stage, the changes are only stored in the `HEAD` on your local mac
 
 Depending on your team's process, you may be pushing code directly to the main branch, or to a different branch entirely, for example:
 
-![Diagram of branching in Git](/assessment/AngelaJohnson_T3A1/images/Git-Branches.png)
+![Diagram of branching in Git](/images/Git-Branches.png)
 (Atlassian 2020)
 
 Assuming the main branch is called `main`, changes can be pushed to it by using `git push origin main`.
@@ -61,7 +63,7 @@ However, when pushing changes back to the central repo, there is a chance that o
 
 Again, in a large team, developers will invetibly come across merge conflict errors that must be resolved. See an example of this in action in the below diagram. If a developer is trying to push code that directly conflicts with commits that are already upstream, Git will error and not push the changes until the conflicts are dealt with. A way to do this is to fetch the most recent commits from the central repo and either 1. rebase their changes over the top of them (i.e. put them at the front) or 2. manually resolve conflicts within the code. This is why it is imperative to commit often, be communicative within your team and make sure each commit has a meanginful message attached to ensure everyone is aware of what is happening and why.
 
-![Diagram of Git conflicts](/assessment/AngelaJohnson_T3A1/images/Git-Conflicts.png)
+![Diagram of Git conflicts](images/Git-Conflicts.png)
 (Better Explained 2015)
 
 <div style="page-break-after: always;"></div>
