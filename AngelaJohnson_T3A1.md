@@ -1,4 +1,4 @@
-To view this assessment correctly, with images, please visit 
+To view this assessment on Github please visit the [Github repo here](https://github.com/angieloux/T3A1_Workbook).
 
 # T3A1 Workbook
 
@@ -39,7 +39,8 @@ The local repo on your machine is made up of 3 'trees' that are all maintained b
 2. **Index**: *staging area*
 3. **HEAD**: *points to the last commit made (i.e. the current commit in the working directory)*
 
-![Diagram of Working directory, Index & HEAD](/images/Git-WD-Index-Head.png)
+![Diagram of Working directory, Index & HEAD](images/Git-WD-Index-Head.png)
+
 (Johnson 2016)
 
 Assuming a central repo has been created (with `git init`) already, each developer will need to clone that repo onto their machine with `git clone <repo_url>` and set up the remote with `git remote add <remote_name> <remote_repo_url>`
@@ -52,7 +53,8 @@ Note, at this stage, the changes are only stored in the `HEAD` on your local mac
 
 Depending on your team's process, you may be pushing code directly to the main branch, or to a different branch entirely, for example:
 
-![Diagram of branching in Git](/images/Git-Branches.png)
+![Diagram of branching in Git](images/Git-Branches.png)
+
 (Atlassian 2020)
 
 Assuming the main branch is called `main`, changes can be pushed to it by using `git push origin main`.
@@ -65,8 +67,6 @@ Again, in a large team, developers will invetibly come across merge conflict err
 
 ![Diagram of Git conflicts](images/Git-Conflicts.png)
 (Better Explained 2015)
-
-<div style="page-break-after: always;"></div>
 
 # **Q2 What are the most important aspects of quality software?**
 
@@ -107,7 +107,7 @@ The MERN stack is named after the four technologies that it incorporates:
 
 The MERN stack is an full-stack collection of technologies that allow a developer to construct a 3-tier architecture (front end, back end, database) with only JavaScript & JSON. It's a popular solution given it allows developers to create apps 1. quickly & 2. utilising only the JavaScript language.
 
-![Diagram of the 3 tiers of MERN Stack](/images/mern.png)
+![Diagram of the 3 tiers of MERN Stack](images/mern.png)
 
 Let's dive into what these three components look like in practice:
 
