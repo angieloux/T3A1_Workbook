@@ -66,6 +66,7 @@ However, when pushing changes back to the central repo, there is a chance that o
 Again, in a large team, developers will invetibly come across merge conflict errors that must be resolved. See an example of this in action in the below diagram. If a developer is trying to push code that directly conflicts with commits that are already upstream, Git will error and not push the changes until the conflicts are dealt with. A way to do this is to fetch the most recent commits from the central repo and either 1. rebase their changes over the top of them (i.e. put them at the front) or 2. manually resolve conflicts within the code. This is why it is imperative to commit often, be communicative within your team and make sure each commit has a meanginful message attached to ensure everyone is aware of what is happening and why.
 
 ![Diagram of Git conflicts](images/Git-Conflicts.png)
+
 (Better Explained 2015)
 
 # **Q2 What are the most important aspects of quality software?**
@@ -108,6 +109,8 @@ The MERN stack is named after the four technologies that it incorporates:
 The MERN stack is an full-stack collection of technologies that allow a developer to construct a 3-tier architecture (front end, back end, database) with only JavaScript & JSON. It's a popular solution given it allows developers to create apps 1. quickly & 2. utilising only the JavaScript language.
 
 ![Diagram of the 3 tiers of MERN Stack](images/mern.png)
+
+(MongoDB 2022)
 
 Let's dive into what these three components look like in practice:
 
